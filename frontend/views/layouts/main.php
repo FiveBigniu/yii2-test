@@ -23,9 +23,10 @@ AppAsset::register($this);
 <body>
 <?php $this->beginBody() ?>
 <?php
+//bootstrap包样式
 NavBar::begin([
         'options'=>[
-                'class'=>'navbar-inverse navbar-fiexd-top'//bootstrap包样式
+                'class'=>'navbar-inverse navbar-fiexd-top'
         ]
 ]);
 $menuItems = [
